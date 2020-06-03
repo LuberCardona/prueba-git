@@ -1,0 +1,95 @@
+
+@media screen and(min-width:360px) and (max-width:420px){
+
+    header{
+        background-color: $size-360-420px; 
+        
+           
+        h1{        
+        background: $bg-text-header-360-420px;        
+        padding: 23px;        
+        line-height: normal;
+        font-size: 20px;
+        
+      
+        }
+        
+        nav{
+            li{
+                background-color: $size-360-420px;
+                padding: 5px;
+            }
+        }
+    }
+
+    main{         
+        margin: 5px;        
+
+        .fondo{
+            float: none;
+            display: inline-block;
+            width: 100%;
+            margin: 70px 5px 5px 5px;
+            height: 250px;
+        }
+
+        .quienes-somos{
+            width: 100%;
+            text-align: justify;           
+            margin-top: 10px;
+           
+            
+            }
+
+        .portafolio{
+            
+                margin-top: 10px;        
+                width: 100%;
+
+                h3{
+                    margin: 0;
+                    
+                 }
+    
+                li{
+                        margin:1px;
+                        width: auto;
+                        margin-right: 1px;
+                        padding: 2px;
+                    
+                    }
+
+
+                   /*width: auto;
+                   padding: 5px;   li */                                
+                
+
+                img{
+                    width: 250px;
+                    height: 150px;          
+                    border: 2px solid black;
+                    margin: 5px;        
+                }
+        
+                .autos{
+                    display:  inline-block;
+                    margin: 5%;  
+                    padding: 5%;  
+                    align-items: none;                
+                        
+                } 
+            
+    
+        }
+  
+        
+    }
+}
+
+
+
+
+    
+
+  
+
